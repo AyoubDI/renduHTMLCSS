@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  margin-right: 10px;
+}
+.sect1 {
+  display: flex;
+  justify-content: space-evenly;
+  img {
+    width: 40%;
+    border: 5px solid gainsboro;
+    border-radius: 15px;
+  }
+}
+
+#first {
+  width: 8%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rouge {
+  border: 5px solid gainsboro;
+  border-radius: 15px;
+}
+.valeur {
+  display: flex;
+  justify-content: space-evenly;
+}
+.sect2 {
+  text-align: center;
+}
+section {
+  text-align: center;
+}
+.card {
+  border: 5px solid #333;
+  border-radius: 5px;
+  width: 30%;
+}
+
+.di {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.di img {
+  justify-content: space-between;
+  width: 100%;
+}
