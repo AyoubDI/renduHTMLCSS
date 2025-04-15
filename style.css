@@ -4,7 +4,8 @@ body {
   padding: 0;
   background-color: #f4f4f4;
 }
-
+* {
+}
 a {
   text-decoration: none;
   color: #333;
@@ -57,6 +58,7 @@ section {
   border: 5px solid #333;
   border-radius: 5px;
   width: 30%;
+  /* height: 400px; */
 }
 
 .di {
@@ -68,4 +70,31 @@ section {
 .di img {
   justify-content: space-between;
   width: 100%;
+}
+
+textarea {
+  text-align: center;
+}
+
+label* {
+  justify-content: ;
+}
+
+.chico {
+  display: flex;
+  justify-content: center; justify-content: space-evenly; gap: 2%;
+  width: 100%;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+  align-items: center; gap: 1px;
+}
+
+.button {
+  background-color: red;
+  color: black;
+  border-radius: 5px;
+  border: #010101 solid 2px;
 }
